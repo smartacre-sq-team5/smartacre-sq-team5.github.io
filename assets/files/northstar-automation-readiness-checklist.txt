@@ -1,0 +1,21 @@
+NORTHSTAR OPERATIONS — AUTOMATION READINESS CHECKLIST
+Fictional training material. Northstar Operations is not a real company.
+
+Ownership
+[ ] Is there one accountable owner for the end-to-end process?
+[ ] Does the owner have authority to change the process?
+[ ] Are exception owners named for every step?
+
+Data
+[ ] Is the source system of record agreed?
+[ ] Are required fields consistently populated (>95%)?
+[ ] Are identifiers shared across the systems involved?
+
+Process
+[ ] Is the current process documented, including exceptions?
+[ ] Is volume high enough to justify automation?
+[ ] Are approval thresholds written down?
+
+Measurement
+[ ] Is there a baseline for cycle time, error rate and cost?
+[ ] Is there an agreed target and review cadence?

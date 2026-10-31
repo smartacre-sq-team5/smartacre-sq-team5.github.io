@@ -1,0 +1,10 @@
+{
+  "asset": "northstar-ops-benchmark-2026.pdf",
+  "asset_version": "2026.2",
+  "status": "unpublished",
+  "error": "asset_not_found",
+  "detail": "The requested file was removed from /assets/files/ during the 2026.2 content migration and has not been re-uploaded.",
+  "request_id": "rq-7d41c0e2",
+  "trace_id": "SQ-8EX6-EP7Y",
+  "logged_by": "nso-resources/1.3"
+}

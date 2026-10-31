@@ -1,0 +1,22 @@
+NORTHSTAR OPERATIONS — THE OPERATIONAL EFFICIENCY PLAYBOOK (summary edition)
+Fictional training material. Northstar Operations is not a real company.
+
+1. Find the friction
+   Run a two-week hand-off audit. For every process step, record who hands work to whom,
+   how (email, spreadsheet, ticket, system), and how long the work waits.
+
+2. Size the prize
+   Multiply waiting time and rework rates by volume. Convert to hours, then to cost.
+   Rank hand-offs by annual cost, not by how loudly people complain about them.
+
+3. Pick the first workflow
+   Plot candidates on value versus effort. Choose a high-value, low-effort workflow with
+   a single accountable owner and clean source data.
+
+4. Automate with guardrails
+   Design the exception path first. Every automated step needs an owner for failures,
+   an SLA, and an audit trail.
+
+5. Prove it
+   Capture the baseline before go-live. Report weekly against the baseline for 90 days,
+   then fold the metric into your standard operations review.

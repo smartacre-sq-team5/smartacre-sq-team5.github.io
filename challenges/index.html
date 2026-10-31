@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SignalQuest Challenge Board</title>
+<meta name="description" content="SignalQuest tracking troubleshooting challenges.">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/site.css">
+<!-- SignalQuest game page: intentionally loads no GTM, GA4, HubSpot or attribution code. -->
+
+</head>
+<body data-page="challenges">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header lab-header">
+  <div class="container header-inner">
+    <span class="brand">
+      <img src="/assets/img/logo.svg" alt="" width="32" height="32">
+      <span>SignalQuest<span class="brand-sub">Team 5</span></span>
+    </span>
+    <a class="btn btn-secondary btn-sm" href="/" target="_blank" rel="noopener">Open the Northstar site</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">SignalQuest &middot; Team 5</p>
+    <h1>Challenge board</h1>
+    <p class="lead">Investigate the Northstar Operations website with Chrome DevTools, GTM Preview, Tag Assistant and GA4 DebugView. Each challenge hides an answer somewhere in the site's tracking. Bring your answers to the facilitator, who also hands out hints.</p>
+    <div class="progress-panel" aria-live="polite">
+      <div><strong data-progress-count>0</strong> of 9 completed</div>
+      <div><strong data-progress-points>0</strong> of 2200 points</div>
+      <button class="link-btn" type="button" data-clear-progress>Clear checkmarks</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="lab-rules card">
+      <h2>Ground rules</h2>
+      <ul>
+        <li>Use the browser tools, not the source code. Don't search page source or JavaScript files for answers, and don't browse the site's GitHub repositories.</li>
+        <li>Use Chrome with ad blockers and privacy extensions turned off.</li>
+        <li>Never enter personal information anywhere on the site.</li>
+        <li>Your checkmarks are saved in this page's address. Bookmark it, or keep this tab open, to keep your progress.</li>
+      </ul>
+    </div>
+    <div class="challenge-list">
+<article class="card challenge" id="C1" data-challenge="C1" data-points="100">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C1"><span class="sr-only">Mark C1 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C1</span> <span class="difficulty difficulty-easy">Easy</span></p>
+      <h2>Find the HubSpot Portal</h2>
+    </div>
+    <div class="challenge-points"><strong>100</strong><span>points</span></div>
+  </div>
+  <p>Marketing says HubSpot website tracking is live on this site. Confirm the tracking script is actually loading, and identify the HubSpot portal (account) ID it reports to.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/" target="_blank" rel="noopener">/</a></dd>
+    <dt>Answer format</dt><dd>The HubSpot portal ID, digits only</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C2" data-challenge="C2" data-points="200">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C2"><span class="sr-only">Mark C2 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C2</span> <span class="difficulty difficulty-medium">Medium</span></p>
+      <h2>Missing UTM</h2>
+    </div>
+    <div class="challenge-points"><strong>200</strong><span>points</span></div>
+  </div>
+  <p>The Q4 efficiency webinar campaign is running on LinkedIn. Open the campaign link below and inspect what the SmartAcre attribution script recorded for the visit.</p>
+  <ul class="challenge-details"><li>Use a fresh browser session. A new Incognito window works best.</li><li>To retry, open the campaign link again in a new Incognito window.</li></ul>
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><div class="start-url"><code data-start-path="/?nso_reset=1&amp;utm_source=linkedin&amp;utm_medium=paid-social&amp;utm_campaign=q4-efficiency-webinar">/?nso_reset=1&amp;utm_source=linkedin&amp;utm_medium=paid-social&amp;utm_campaign=q4-efficiency-webinar</code><button class="btn btn-secondary btn-sm" type="button" data-copy="/?nso_reset=1&amp;utm_source=linkedin&amp;utm_medium=paid-social&amp;utm_campaign=q4-efficiency-webinar">Copy link</button><a class="btn btn-primary btn-sm" href="/?nso_reset=1&amp;utm_source=linkedin&amp;utm_medium=paid-social&amp;utm_campaign=q4-efficiency-webinar" target="_blank" rel="noopener">Open</a></div></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C3" data-challenge="C3" data-points="100">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C3"><span class="sr-only">Mark C3 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C3</span> <span class="difficulty difficulty-easy">Easy</span></p>
+      <h2>Secret Click</h2>
+    </div>
+    <div class="challenge-points"><strong>100</strong><span>points</span></div>
+  </div>
+  <p>One interaction in the plan comparison on the Platform page sends more information to the data layer than the others. Find that interaction and recover the code it sends.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/platform/" target="_blank" rel="noopener">/platform/</a></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C4" data-challenge="C4" data-points="200">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C4"><span class="sr-only">Mark C4 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C4</span> <span class="difficulty difficulty-medium">Medium</span></p>
+      <h2>Silent GA4 Event</h2>
+    </div>
+    <div class="challenge-points"><strong>200</strong><span>points</span></div>
+  </div>
+  <p>Something on the Resources page sends a GA4 event that no GTM event tag is responsible for. Find the event and the code it carries.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/resources/" target="_blank" rel="noopener">/resources/</a></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C5" data-challenge="C5" data-points="300">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C5"><span class="sr-only">Mark C5 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C5</span> <span class="difficulty difficulty-hard">Hard</span></p>
+      <h2>The Consent Switch</h2>
+    </div>
+    <div class="challenge-points"><strong>300</strong><span>points</span></div>
+  </div>
+  <p>Use the site's cookie banner to put your browser into two consent states. For each one, record the Google consent state that is actually sent with GA4 requests.</p>
+  <ul class="challenge-details"><li>State A: Analytics allowed, Advertisement not allowed.</li><li>State B: Analytics not allowed, Advertisement allowed.</li><li>The Privacy Center page explains how to change your cookie choices.</li></ul>
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/consent-lab/" target="_blank" rel="noopener">/consent-lab/</a></dd>
+    <dt>Answer format</dt><dd>Two consent codes joined by a hyphen, State A first: GXXX-GXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C6" data-challenge="C6" data-points="300">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C6"><span class="sr-only">Mark C6 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C6</span> <span class="difficulty difficulty-hard">Hard</span></p>
+      <h2>Broken Conversion</h2>
+    </div>
+    <div class="challenge-points"><strong>300</strong><span>points</span></div>
+  </div>
+  <p>Both forms on the demo page show a success message, but only one of them is tracked as a conversion. Find out why, and recover the diagnostic reference attached to the conversion that never happens.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/demo/" target="_blank" rel="noopener">/demo/</a></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C7" data-challenge="C7" data-points="300">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C7"><span class="sr-only">Mark C7 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C7</span> <span class="difficulty difficulty-hard">Hard</span></p>
+      <h2>Duplicate Conversion</h2>
+    </div>
+    <div class="challenge-points"><strong>300</strong><span>points</span></div>
+  </div>
+  <p>A single test demo request is being counted as more than one lead. Find every hit it sends, and recover the code from the one that should not exist.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/demo/" target="_blank" rel="noopener">/demo/</a></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="C8" data-challenge="C8" data-points="500">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="C8"><span class="sr-only">Mark C8 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">C8</span> <span class="difficulty difficulty-expert">Expert</span></p>
+      <h2>The Final Conversion</h2>
+    </div>
+    <div class="challenge-points"><strong>500</strong><span>points</span></div>
+  </div>
+  <p>Reproduce this visitor journey exactly, then capture the code the site records when the visitor converts.</p>
+  <ul class="challenge-details"><li>The visitor arrives from the Ops Summit partner email, using the link below.</li><li>They allow analytics cookies.</li><li>They read the Solutions page and the Platform page.</li><li>On the Platform page, they compare Enterprise-plan automation.</li><li>They request a live demo.</li><li>To start over, open the link again (it resets your journey) or use a new Incognito window.</li></ul>
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><div class="start-url"><code data-start-path="/?nso_reset=1&amp;utm_source=summit-partner&amp;utm_medium=email&amp;utm_campaign=ops-summit-2026&amp;utm_content=speaker-invite">/?nso_reset=1&amp;utm_source=summit-partner&amp;utm_medium=email&amp;utm_campaign=ops-summit-2026&amp;utm_content=speaker-invite</code><button class="btn btn-secondary btn-sm" type="button" data-copy="/?nso_reset=1&amp;utm_source=summit-partner&amp;utm_medium=email&amp;utm_campaign=ops-summit-2026&amp;utm_content=speaker-invite">Copy link</button><a class="btn btn-primary btn-sm" href="/?nso_reset=1&amp;utm_source=summit-partner&amp;utm_medium=email&amp;utm_campaign=ops-summit-2026&amp;utm_content=speaker-invite" target="_blank" rel="noopener">Open</a></div></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+<article class="card challenge" id="B1" data-challenge="B1" data-points="200">
+  <div class="challenge-head">
+    <label class="challenge-check"><input type="checkbox" data-done="B1"><span class="sr-only">Mark B1 as completed</span></label>
+    <div>
+      <p class="challenge-meta"><span class="tag">B1</span> <span class="difficulty difficulty-medium">Medium</span></p>
+      <h2>Failed Network Request</h2>
+    </div>
+    <div class="challenge-points"><strong>200</strong><span>points</span></div>
+  </div>
+  <p>A download on the Resources page is failing. Find out what went wrong, and recover the reference the site recorded about the failure.</p>
+  
+  <dl class="challenge-facts">
+    <dt>Start here</dt><dd><a href="/resources/" target="_blank" rel="noopener">/resources/</a></dd>
+    <dt>Answer format</dt><dd>A team code in the format SQ-XXXX-XXXX</dd>
+  </dl>
+</article>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer lab-footer">
+  <div class="container">
+    <p>SignalQuest — The Tracking Troubleshooting Lab. A SmartAcre training environment. Northstar Operations is a fictional company; never enter personal information.</p>
+  </div>
+</footer>
+
+<script src="/assets/js/challenges.js"></script>
+</body>
+</html>
